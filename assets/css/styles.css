@@ -563,7 +563,7 @@ footer {
         display: block;
         text-align: center;
         padding: 15px 0;
-        width: 90%;
+        width: 100%;
         margin: 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
@@ -574,8 +574,8 @@ footer {
 
     /* 4. Estado "Abierto" (Esta clase la añade JavaScript) */
     .nav-open {
-        height: 150px; /* Altura suficiente para mostrar 2-3 enlaces */
-        /* Ajusta esta altura si añades más enlaces, para que todos quepan */
+        height: auto;
+        padding-bottom: 2em;
     }
 
     /* 5. Animación del ícono Hamburguesa a "X" */
