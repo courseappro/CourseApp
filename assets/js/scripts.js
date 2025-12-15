@@ -38,6 +38,14 @@ for (let i = 0; i < installerlin.length; i++) {
         window.location.href = 'https://github.com/josecantero/curseApp/releases/download/v1.0.74/courseApp-1.0.74.AppImage';
     });
 }
+const grupoFb = document.getElementsByClassName('btn primary-cta fbg');
+console.log(grupoFb);
+for (let i = 0; i < grupoFb.length; i++) {
+    grupoFb[i].addEventListener('click', () => {
+        window.location.href = 'https://www.facebook.com/groups/cursosgratisenstreaming/';
+    });
+}
+
 var today = new Date();
 var year = today.getFullYear();
 console.log("Current Year: " + year);
