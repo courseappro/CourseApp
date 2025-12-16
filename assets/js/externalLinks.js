@@ -1,5 +1,5 @@
-const installerwinUrl = 'https://github.com/josecantero/curseApp/releases/download/v1.0.74/courseapp-1.0.74.Squerrel_Setup.exe';
-const installerlinUrl = 'https://github.com/josecantero/curseApp/releases/download/v1.0.74/courseApp-1.0.74.AppImage';
+const installerwinUrl = 'https://github.com/josecantero/curseApp/releases/download/v1.0.76/courseapp-1.0.76.Setup.exe';
+const installerlinUrl = 'https://github.com/josecantero/curseApp/releases/download/v1.0.76/curseApp-1.0.76.AppImage';
 const grupoFbUrl = 'https://www.facebook.com/groups/cursosgratisenstreaming/';
 
 const installerwin = document.getElementsByClassName('btn primary-cta win32');
