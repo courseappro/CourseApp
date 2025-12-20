@@ -2,13 +2,17 @@ const installerwinUrl = 'https://github.com/josecantero/curseApp/releases/downlo
 const installerlinUrl = 'https://github.com/josecantero/curseApp/releases/download/untagged-fae40158193f8345d799/curseApp-1.0.78.AppImage';
 const grupoFbUrl = 'https://www.facebook.com/groups/cursosgratisenstreaming/';
 
-const installerwin = document.getElementsByClassName('btn primary-cta win32');
+const btnClass = 'btn primary-cta'
+const winClass = 'win32'
+const linClass = 'linux'
+
+const installerwin = document.getElementsByClassName(btnClass + winClass);
 openExternalLink(installerwin, installerwinUrl);
 
-const installerlin = document.getElementsByClassName('btn primary-cta linux');
+const installerlin = document.getElementsByClassName(btnClass + linClass);
 openExternalLink(installerlin, installerlinUrl);
 
-const grupoFb = document.getElementsByClassName('btn primary-cta fbg');
+const grupoFb = document.getElementsByClassName(btnClass + ' fbg');
 openExternalLink(grupoFb, grupoFbUrl);
 
 function openExternalLink(button, url) {
