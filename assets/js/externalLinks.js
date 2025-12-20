@@ -7,9 +7,11 @@ const winClass = 'win32'
 const linClass = 'linux'
 
 const installerwin = document.getElementsByClassName(btnClass + winClass);
+console.log(installerwin);
 openExternalLink(installerwin, installerwinUrl);
 
 const installerlin = document.getElementsByClassName(btnClass + linClass);
+console.log(installerlin);
 openExternalLink(installerlin, installerlinUrl);
 
 const grupoFb = document.getElementsByClassName(btnClass + ' fbg');
