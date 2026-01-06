@@ -2,7 +2,7 @@ const changelogContainer = document.querySelector('.changelog-list .container');
 
 async function renderChangelog() {
     try {
-        const response = await fetch('../data/changelog.json');
+        const response = await fetch('assets/data/changelog.json');
         const data = await response.json();
 
         // Limpiar el contenedor antes de inyectar
